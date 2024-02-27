@@ -18,6 +18,8 @@ En este proyecto, nos enfocaremos en los siguientes aspectos:
 - **Paths**: Configuraremos y definiremos las rutas de navegación utilizando diferentes enfoques, tanto propios como de terceros.
 - **Configuraciones de router**: Ajustaremos y personalizaremos las configuraciones del router para adaptarlas a los requisitos de nuestra aplicación.
 
+Adicionalmente por ejemplo he añadido funcionalidades para practicar como Fluttertoast...
+
 ## Capturas de Pantalla
 
 _Inserta aquí algunas capturas de pantalla de tu aplicación para mostrar cómo se ve en diferentes dispositivos y escenarios._
