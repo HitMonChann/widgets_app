@@ -16,6 +16,10 @@ final router = GoRouter(
     GoRoute(
       path: '/cards',
       builder: (context, state) => const CardsScreen(),
+    ),
+    GoRoute(
+      path: '/progressIndicators',
+      builder: (context, state) => const ProgressScreen(),
     )
   ],
 );
