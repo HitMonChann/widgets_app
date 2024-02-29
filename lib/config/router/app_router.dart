@@ -20,6 +20,10 @@ final router = GoRouter(
     GoRoute(
       path: '/progressIndicators',
       builder: (context, state) => const ProgressScreen(),
-    )
+    ),
+    GoRoute(
+      path: '/snackbars',
+      builder: (context, state) => const SnackbarScreen(),
+    ),
   ],
 );
