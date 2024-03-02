@@ -50,4 +50,10 @@ const appMenuItems = <MenuItem>[
     link: '/bottonNavBar',
     icon: Icons.menu_open_sharp,
   ),
+  MenuItem(
+    title: 'UI Controls',
+    subTitle: 'Controladores de flutter',
+    link: '/ui-controls',
+    icon: Icons.arrow_drop_down_circle_sharp,
+  ),
 ];

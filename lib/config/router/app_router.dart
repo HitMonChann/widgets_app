@@ -34,5 +34,9 @@ final router = GoRouter(
       path: '/bottonNavBar',
       builder: (context, state) => const BottonNavBar(),
     ),
+    GoRoute(
+      path: '/ui-controls',
+      builder: (context, state) => const UiControlsScreen(),
+    ),
   ],
 );
