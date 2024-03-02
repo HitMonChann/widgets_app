@@ -1,5 +1,6 @@
 // GoRouter configuration
 import 'package:go_router/go_router.dart';
+import 'package:widgets_app/presentation/screens/home/botton_nav_bar.dart';
 import 'package:widgets_app/presentation/screens/screens.dart';
 
 final router = GoRouter(
@@ -28,6 +29,10 @@ final router = GoRouter(
     GoRoute(
       path: '/animated',
       builder: (context, state) => const AnimatedScreen(),
+    ),
+    GoRoute(
+      path: '/bottonNavBar',
+      builder: (context, state) => const BottonNavBar(),
     ),
   ],
 );

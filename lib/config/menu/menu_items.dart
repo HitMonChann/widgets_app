@@ -44,4 +44,10 @@ const appMenuItems = <MenuItem>[
     link: '/animated',
     icon: Icons.check_box_outline_blank_outlined,
   ),
+  MenuItem(
+    title: 'Bottom Navigation Bar',
+    subTitle: 'Barra de navegación inferior',
+    link: '/bottonNavBar',
+    icon: Icons.menu_open_sharp,
+  ),
 ];
